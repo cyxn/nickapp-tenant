@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "rootDir": "src",
+    "baseUrl": ".",
+    "resolveJsonModule": true,
+    "target": "es2017",
+    "module": "commonjs",
+    "sourceMap": true,
+    "allowJs": true,
+    "noUnusedLocals": true,
+    "jsx": "react",
+    "outDir": "build",
+    "types": ["node", "mocha", "chai", "chai-string"],
+    "lib": ["es2015", "es2017"],
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "alwaysStrict": true,
+    "paths": {
+      "swag-client-common/*": ["./src/client/scripts/common/*"],
+      "swag-common/*": ["./src/common/*"],
+      "swag-server-common/*": ["./src/common-server/*"]
+    },
+    "esModuleInterop": true
+  },
+  "include": [
+    "./src/custom-store-server/**/*",
+    "./src/server/**/*",
+    "./src/common/**/*",
+    "./src/common-server/**/*",
+    "./src/workers/**/*",
+    "./src/test/**/*"
+  ]
+}

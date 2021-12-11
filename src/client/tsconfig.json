@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "lib": ["esnext", "dom"],
+    "baseUrl": "../../",
+    "jsx": "react",
+    "target": "es5",
+    "sourceMap": true,
+    "typeRoots": ["../../node_modules/@types"],
+    "noErrorTruncation": true,
+    "noUnusedLocals": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": false,
+    "strictPropertyInitialization": false,
+    "alwaysStrict": true,
+    "paths": {
+//      "swag-client-common/*": ["./src/client/scripts/common/*"],
+//      "swag-common/*": ["./src/common/*"],
+//      "swag-server-common/*": ["./src/common-server/*"],
+//      "assets/*": ["./src/client/assets/*"],
+//      "swag-admin/*": ["./src/client/scripts/admin/*"]
+    },
+  },
+}

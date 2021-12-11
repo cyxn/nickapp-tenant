@@ -1,0 +1,1 @@
+export const TITLE = 'Some really nice TITLE';
