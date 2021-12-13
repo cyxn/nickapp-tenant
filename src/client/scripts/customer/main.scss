@@ -1,0 +1,13 @@
+@import './constants';
+
+html {
+  background-color: $background-color;
+}
+
+h1, a, p, hr {
+  color: $text-color;
+}
+
+.link {
+  color: $color-primary;
+}
