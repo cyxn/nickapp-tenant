@@ -1,1 +1,4 @@
-export const TITLE = 'No man is an island';
+
+
+
+export const TITLE = 'This is SWAG page';
