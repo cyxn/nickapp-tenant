@@ -1,1 +1,1 @@
-export const TITLE = 'Some really nice TITLE';
+export const TITLE = 'No man is an island';
