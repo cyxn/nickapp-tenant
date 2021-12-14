@@ -52,7 +52,9 @@ const config = {
     htmlWebpackPlugin,
     tenant &&
       new ForkTsCheckerWebpackPlugin({
-        tsconfig: path.resolve(__dirname, './src/client/tsconfig.json'),
+        typescript: {
+          configFile: path.resolve(__dirname, './src/client/tsconfig.json'),
+        },
       }),
   ].filter(Boolean),
   module: {
@@ -104,8 +106,8 @@ const config = {
           {
             loader: 'css-loader',
             options: {
-              localsConvention: 'camelCase',
               modules: {
+                exportLocalsConvention: 'camelCase',
                 localIdentName: '[name]__[local]___[hash:base64:5]',
               },
             },
